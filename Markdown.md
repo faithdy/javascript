@@ -39,10 +39,19 @@ int main(void) {
 
 Syntax Highlight  
 code 우측에 'clike', 'ruby'등을 설정.
-```c_cpp
+```c++
 #include <stdio.h>
+using namespace std;
 int main(void) {
   return 0;
+}
+class Node {
+  private:
+    int number;
+    class *pNext;
+  public:
+    int getNumber();
+    int getpNext();
 }
 ```
 
