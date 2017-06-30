@@ -6,5 +6,50 @@
 ## 2단계 제목
 이것은 2단계 제목입니다.
 
-First-level heading
-=======================
+# 목록
+순서가 없는 목록
+* 목록 하나
+* 목록 둘
+- 목록 셋
+
+순서가 있는 목록
+1. 목록 첫째
+2. 목록 둘째
+4. 목록 셋째
+
+# 글자 모양
+**굵게** 쓰려면 'b'old text  
+*기울게* 쓰려면 'i'talic text  
+~~취소~~는 물결 두개로.  
+강제 개행은 줄 끝에 공백 두칸  
+
+# 코드
+```
+#include <stdio.h>
+int main(void) {
+  return 0;
+}
+```
+`printf("Hello");`
+
+#!/usr/bin/env clojure
+    (println "Hello, World!")
+
+# 인용문
+꺽쇠>를 이용합니다.
+> 안녕  
+> 이것은 인용문.
+
+# 링크
+링크는 'l'을 이용.
+
+[네이버 링크](http://www.naver.com)
+
+# 그림 넣기
+이미지는 'img'를 이용.
+![꽃](http://thumb.photo.naver.net/exphoto02/2011/2/23/111/%B9%D9%B6%F7%B0%B3%BA%F1_016_ghxhghtns.jpg "툴팁 메시지. 이 부분은 생략해도 됩니다.")
+
+# 가로줄
+* * *
+***
+*****
