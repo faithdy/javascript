@@ -39,7 +39,7 @@ int main(void) {
 
 Syntax Highlight  
 code 우측에 'clike', 'ruby'등을 설정.
-```clike
+```c_cpp
 #include <stdio.h>
 int main(void) {
   return 0;
@@ -56,7 +56,7 @@ int main(void) {
 
 [네이버 링크](http://www.naver.com)
 
-[깃허브 내 연관링크](docs/README.md)
+[깃허브 내 연관링크](README.md)
 
 # 그림 넣기
 이미지는 'img'를 이용.
@@ -74,6 +74,7 @@ int main(void) {
 
 # 테이블
 'table'을 이용해서 활성화 합니다.
+
 | Command | Description |
 | --- | --- |
 | `git status` | List all *new or modified* files |
